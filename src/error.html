@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>%sveltekit.status% | Error</title>
+		<meta property="og:site_name" content="Shadow Development" />
+		<meta property="og:title" content="%sveltekit.status% Server Error" />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary" />
+		<style>
+			*,
+			*::before,
+			*::after {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			:root {
+				--base-100: oklch(14% 0.005 285.823);
+				--base-content: oklch(96% 0.001 286.375);
+				--base-content-60: oklch(96% 0.001 286.375 / 0.6);
+				--primary: oklch(54% 0.245 262.881);
+				--primary-content: oklch(97% 0.014 254.604);
+				--error: oklch(57% 0.245 27.325);
+				--warning: oklch(68% 0.162 75.834);
+				--radius: 0.5rem;
+			}
+
+			body {
+				font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+					'Segoe UI Symbol', 'Noto Color Emoji';
+				background-color: var(--base-100);
+				color: var(--base-content);
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 1rem;
+			}
+
+			.container {
+				text-align: center;
+			}
+
+			.status-code {
+				font-size: 9rem;
+				line-height: 1;
+				font-weight: 900;
+				background: linear-gradient(to right, var(--error), var(--warning));
+				-webkit-background-clip: text;
+				background-clip: text;
+				color: transparent;
+				margin-bottom: 2rem;
+			}
+
+			@media (min-width: 768px) {
+				.status-code {
+					font-size: 12rem;
+				}
+			}
+
+			h1 {
+				font-size: 1.875rem;
+				font-weight: 700;
+				margin-bottom: 1rem;
+			}
+
+			@media (min-width: 768px) {
+				h1 {
+					font-size: 2.25rem;
+				}
+			}
+
+			.message {
+				font-size: 1.125rem;
+				color: var(--base-content-60);
+				max-width: 36rem;
+				margin: 0 auto 2rem;
+			}
+
+			.buttons {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				gap: 1rem;
+			}
+
+			@media (min-width: 640px) {
+				.buttons {
+					flex-direction: row;
+				}
+			}
+
+			.btn {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				padding: 0.875rem 1.5rem;
+				font-size: 1.125rem;
+				font-weight: 600;
+				border-radius: var(--radius);
+				cursor: pointer;
+				transition: transform 0.15s ease;
+				text-decoration: none;
+			}
+
+			.btn:hover {
+				transform: scale(1.05);
+			}
+
+			.btn-primary {
+				background-color: var(--primary);
+				color: var(--primary-content);
+				border: none;
+			}
+
+			.btn-outline {
+				background-color: transparent;
+				color: var(--base-content);
+				border: 1px solid var(--base-content);
+			}
+
+			.btn svg {
+				width: 1.25rem;
+				height: 1.25rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="status-code">%sveltekit.status%</div>
+
+			<h1>Something Went Wrong</h1>
+
+			<p class="message">%sveltekit.error.message%</p>
+
+			<div class="buttons">
+				<a href="/" class="btn btn-primary">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
+						/>
+					</svg>
+					Back to Home
+				</a>
+				<button onclick="history.back()" class="btn btn-outline">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							fill-rule="evenodd"
+							d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+					Go Back
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
+<!-- Created by Shadow Development: https://shadowdevs.com/store/personallanding -->
+<!-- And I will do whatever you ask in my name, so that the Father may be glorified in the Son. (John 14:13) -->

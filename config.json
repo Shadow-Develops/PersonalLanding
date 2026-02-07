@@ -1,0 +1,375 @@
+{
+	"domain": "http://localhost:5173",
+	"siteSettings": {
+		"siteName": "Personal Landing",
+		"siteDescription": "A personal landing page showcasing my information and links.",
+		"metaColor": "#4A90E2"
+	},
+	"footerSettings": {
+		"enabled": true,
+		"text": "© {date} [{siteName}](https://shadowdevs.com/store/personallanding). All rights reserved."
+	},
+	"sections": [
+		{
+			"type": "hero",
+			"enabled": true,
+			"variant": "centered",
+			"name": "Hero Centered",
+			"tagline": "This demo page shows all sections and variants available in the Personal Landing template. You can enable/disable sections and customize content as needed.",
+			"avatar": "/img/Logo.png",
+			"showAvatar": true
+		},
+		{
+			"type": "hero",
+			"enabled": true,
+			"variant": "split",
+			"name": "Hero Split",
+			"tagline": "Creating Digital Experiences That Matter",
+			"avatar": "/img/Logo.png",
+			"showAvatar": true
+		},
+		{
+			"type": "hero",
+			"enabled": true,
+			"variant": "minimal",
+			"name": "Hero Minimal",
+			"tagline": "Developer • Designer • Dreamer",
+			"showAvatar": false
+		},
+		{
+			"type": "hero",
+			"enabled": true,
+			"variant": "bold",
+			"name": "Hero Bold",
+			"tagline": "Building the Future, One Line at a Time",
+			"avatar": "/img/Logo.png",
+			"showAvatar": true
+		},
+		{
+			"type": "hero",
+			"enabled": true,
+			"variant": "card",
+			"name": "Hero Card",
+			"tagline": "Passionate Developer & Tech Enthusiast",
+			"avatar": "/img/Logo.png",
+			"showAvatar": true
+		},
+		{
+			"type": "hero",
+			"enabled": true,
+			"variant": "links",
+			"name": "Hero Links",
+			"tagline": "Full Stack Developer",
+			"avatar": "/img/Logo.png",
+			"showAvatar": true,
+			"links": [
+				{ "name": "GitHub", "url": "https://github.com/username", "icon": "github" },
+				{ "name": "LinkedIn", "url": "https://linkedin.com/in/username", "icon": "linkedin" },
+				{ "name": "Twitter", "url": "https://twitter.com/username", "icon": "twitter" }
+			]
+		},
+		{
+			"type": "about",
+			"enabled": true,
+			"variant": "centered",
+			"title": "About Me (Centered)",
+			"content": "Hey there! I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. When I'm not coding, you'll find me contributing to open source projects, writing technical blog posts, or exploring the latest web technologies. I believe in writing clean, maintainable code and building products that make a difference.",
+			"skills": [
+				"JavaScript",
+				"TypeScript",
+				"Svelte",
+				"React",
+				"Node.js",
+				"Python",
+				"PostgreSQL",
+				"Docker",
+				"AWS"
+			]
+		},
+		{
+			"type": "about",
+			"enabled": true,
+			"variant": "split",
+			"title": "About Me (Split)",
+			"content": "I specialize in building modern web applications with a focus on performance, accessibility, and user experience. With years of experience across the full stack, I bring ideas to life through clean code and thoughtful design.",
+			"skills": ["React", "Vue", "Svelte", "Node.js", "Python", "GraphQL"]
+		},
+		{
+			"type": "about",
+			"enabled": true,
+			"variant": "card",
+			"title": "About Me (Card)",
+			"content": "A versatile developer who loves tackling challenging problems and learning new technologies. I'm committed to writing maintainable code and creating exceptional user experiences.",
+			"skills": ["TypeScript", "Tailwind CSS", "PostgreSQL", "MongoDB", "Redis"]
+		},
+		{
+			"type": "about",
+			"enabled": true,
+			"variant": "minimal",
+			"title": "About Me (Minimal)",
+			"content": "Clean code enthusiast. Problem solver. Lifelong learner. I create digital experiences that are both beautiful and functional.",
+			"skills": ["JavaScript", "CSS", "HTML", "Git", "CI/CD"]
+		},
+		{
+			"type": "stats",
+			"enabled": true,
+			"title": "By the Numbers",
+			"items": [
+				{ "label": "Projects", "value": "50+", "description": "Completed" },
+				{ "label": "Years", "value": "7+", "description": "Experience" },
+				{ "label": "Clients", "value": "35+", "description": "Worldwide" },
+				{ "label": "Coffee", "value": "∞", "description": "Consumed" }
+			]
+		},
+		{
+			"type": "services",
+			"enabled": true,
+			"title": "What I Do",
+			"items": [
+				{
+					"name": "Web Development",
+					"description": "Building modern, responsive web applications using cutting-edge frameworks like Svelte, React, and Vue.",
+					"icon": "code"
+				},
+				{
+					"name": "UI/UX Design",
+					"description": "Creating intuitive, accessible, and visually stunning user interfaces that users love.",
+					"icon": "design"
+				},
+				{
+					"name": "API Development",
+					"description": "Designing and building robust RESTful and GraphQL APIs that scale with your business.",
+					"icon": "api"
+				},
+				{
+					"name": "Technical Consulting",
+					"description": "Providing strategic guidance on architecture, tech stack decisions, and best practices.",
+					"icon": "consulting"
+				}
+			]
+		},
+		{
+			"type": "projects",
+			"enabled": true,
+			"title": "Featured Projects",
+			"items": [
+				{
+					"name": "TaskFlow Pro",
+					"description": "A modern project management tool with real-time collaboration, Kanban boards, and AI-powered task suggestions.",
+					"url": "https://github.com/username/taskflow-pro",
+					"tags": ["Svelte", "TypeScript", "PostgreSQL"]
+				},
+				{
+					"name": "DevMetrics Dashboard",
+					"description": "Analytics dashboard for tracking developer productivity and code quality metrics across repositories.",
+					"url": "https://github.com/username/devmetrics",
+					"tags": ["React", "D3.js", "Node.js"]
+				},
+				{
+					"name": "CloudSync CLI",
+					"description": "Command-line tool for seamless file synchronization across multiple cloud storage providers.",
+					"url": "https://github.com/username/cloudsync-cli",
+					"tags": ["Python", "AWS", "CLI"]
+				},
+				{
+					"name": "OpenAPI Generator",
+					"description": "Automated API documentation generator with interactive testing playground.",
+					"url": "https://github.com/username/openapi-gen",
+					"tags": ["TypeScript", "OpenAPI", "Docker"]
+				}
+			]
+		},
+		{
+			"type": "timeline",
+			"enabled": true,
+			"title": "Experience",
+			"items": [
+				{
+					"date": "2023 - Present",
+					"title": "Senior Software Engineer",
+					"subtitle": "TechVentures Inc.",
+					"description": "Leading a team of 5 developers building enterprise SaaS products. Architected microservices infrastructure serving 100k+ users."
+				},
+				{
+					"date": "2020 - 2023",
+					"title": "Full Stack Developer",
+					"subtitle": "InnovateLab Startup",
+					"description": "Built and scaled multiple web applications from MVP to production. Implemented CI/CD pipelines and reduced deployment time by 60%."
+				},
+				{
+					"date": "2018 - 2020",
+					"title": "Frontend Developer",
+					"subtitle": "Digital Agency Co.",
+					"description": "Developed responsive web interfaces for 20+ client projects. Mentored junior developers and established coding standards."
+				},
+				{
+					"date": "2017 - 2018",
+					"title": "Junior Developer",
+					"subtitle": "WebSolutions Ltd.",
+					"description": "Started professional development journey. Built custom WordPress themes and learned modern JavaScript frameworks."
+				}
+			]
+		},
+		{
+			"type": "gallery",
+			"enabled": true,
+			"variant": "grid",
+			"title": "Gallery (Grid)",
+			"items": [
+				{ "image": "/img/Banner.png", "caption": "Dashboard UI Design", "url": "" },
+				{ "image": "/img/Logo.png", "caption": "Brand Identity", "url": "" },
+				{ "image": "/img/Banner.png", "caption": "Mobile App Prototype", "url": "" },
+				{ "image": "/img/Logo.png", "caption": "Landing Page Design", "url": "" }
+			]
+		},
+		{
+			"type": "gallery",
+			"enabled": true,
+			"variant": "masonry",
+			"title": "Gallery (Masonry)",
+			"items": [
+				{ "image": "/img/Banner.png", "caption": "Web Design Project", "url": "" },
+				{ "image": "/img/Logo.png", "caption": "Logo Collection", "url": "" },
+				{ "image": "/img/Banner.png", "caption": "UI Components", "url": "" }
+			]
+		},
+		{
+			"type": "gallery",
+			"enabled": true,
+			"variant": "lightbox",
+			"title": "Gallery (Lightbox)",
+			"items": [
+				{ "image": "/img/Banner.png", "caption": "Portfolio Piece 1", "url": "" },
+				{ "image": "/img/Logo.png", "caption": "Portfolio Piece 2", "url": "" }
+			]
+		},
+		{
+			"type": "gallery",
+			"enabled": true,
+			"variant": "carousel",
+			"title": "Gallery (Carousel)",
+			"items": [
+				{ "image": "/img/Banner.png", "caption": "Featured Work 1", "url": "" },
+				{ "image": "/img/Logo.png", "caption": "Featured Work 2", "url": "" },
+				{ "image": "/img/Banner.png", "caption": "Featured Work 3", "url": "" }
+			]
+		},
+		{
+			"type": "testimonials",
+			"enabled": true,
+			"title": "What People Say",
+			"items": [
+				{
+					"quote": "Alex delivered our project ahead of schedule with exceptional quality. Their attention to detail and proactive communication made the entire process smooth.",
+					"name": "Sarah Chen",
+					"role": "CEO, TechStart Inc.",
+					"avatar": ""
+				},
+				{
+					"quote": "One of the most talented developers I've worked with. They transformed our outdated platform into a modern, scalable solution.",
+					"name": "Michael Rodriguez",
+					"role": "CTO, DataFlow Systems",
+					"avatar": ""
+				},
+				{
+					"quote": "Great technical skills combined with excellent problem-solving abilities. Alex is a true professional who goes above and beyond.",
+					"name": "Emily Watson",
+					"role": "Product Manager, CloudNine",
+					"avatar": ""
+				}
+			]
+		},
+		{
+			"type": "faq",
+			"enabled": true,
+			"title": "Frequently Asked Questions",
+			"items": [
+				{
+					"question": "What technologies do you specialize in?",
+					"answer": "I primarily work with JavaScript/TypeScript ecosystems including Svelte, React, and Node.js. I'm also proficient in Python, PostgreSQL, and cloud platforms like AWS and GCP."
+				},
+				{
+					"question": "Are you available for freelance projects?",
+					"answer": "Yes! I take on select freelance projects that align with my expertise. Feel free to reach out through the contact section to discuss your project requirements and timeline."
+				},
+				{
+					"question": "What is your typical project process?",
+					"answer": "I follow an agile methodology with regular check-ins, iterative development, and continuous feedback. Each project starts with a discovery phase to understand your needs, followed by planning, development, testing, and deployment."
+				},
+				{
+					"question": "Do you offer ongoing maintenance and support?",
+					"answer": "Absolutely! I offer maintenance packages that include bug fixes, security updates, performance optimization, and feature enhancements to keep your application running smoothly."
+				}
+			]
+		},
+		{
+			"type": "links",
+			"enabled": true,
+			"variant": "default",
+			"title": "Connect With Me (Default)",
+			"items": [
+				{ "name": "GitHub", "url": "https://github.com/username", "icon": "github" },
+				{ "name": "LinkedIn", "url": "https://linkedin.com/in/username", "icon": "linkedin" },
+				{ "name": "Twitter", "url": "https://twitter.com/username", "icon": "twitter" },
+				{ "name": "Discord", "url": "https://discord.gg/invite", "icon": "discord" },
+				{ "name": "Blog", "url": "https://blog.example.com", "icon": "blog" },
+				{ "name": "Email", "url": "mailto:alex@example.com", "icon": "email" }
+			]
+		},
+		{
+			"type": "links",
+			"enabled": true,
+			"variant": "grid",
+			"title": "Connect With Me (Grid)",
+			"items": [
+				{ "name": "GitHub", "url": "https://github.com/username", "icon": "github" },
+				{ "name": "LinkedIn", "url": "https://linkedin.com/in/username", "icon": "linkedin" },
+				{ "name": "Twitter", "url": "https://twitter.com/username", "icon": "twitter" },
+				{ "name": "Discord", "url": "https://discord.gg/invite", "icon": "discord" }
+			]
+		},
+		{
+			"type": "links",
+			"enabled": true,
+			"variant": "card",
+			"title": "Connect With Me (Card)",
+			"items": [
+				{ "name": "GitHub", "url": "https://github.com/username", "icon": "github" },
+				{ "name": "LinkedIn", "url": "https://linkedin.com/in/username", "icon": "linkedin" },
+				{ "name": "Portfolio", "url": "https://portfolio.example.com", "icon": "blog" }
+			]
+		},
+		{
+			"type": "links",
+			"enabled": true,
+			"variant": "minimal",
+			"title": "Connect With Me (Minimal)",
+			"items": [
+				{ "name": "GitHub", "url": "https://github.com/username", "icon": "github" },
+				{ "name": "Email", "url": "mailto:alex@example.com", "icon": "email" }
+			]
+		},
+		{
+			"type": "contact",
+			"enabled": true,
+			"title": "Contact Me",
+			"description": "Have a project in mind or just want to chat? I'd love to hear from you! Drop me a message and I'll get back to you as soon as possible.",
+			"button": {
+				"enabled": true,
+				"type": "email",
+				"value": "alex@example.com",
+				"text": "Send Email"
+			},
+			"form": {
+				"enabled": true,
+				"email": "alex@example.com",
+				"subject": "New Contact Form Submission",
+				"successMessage": "Thanks for reaching out! I'll get back to you soon.",
+				"namePlaceholder": "Your Name",
+				"emailPlaceholder": "your@email.com",
+				"messagePlaceholder": "Your message...",
+				"submitText": "Send Message"
+			}
+		}
+	]
+}

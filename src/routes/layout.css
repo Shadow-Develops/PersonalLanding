@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin 'daisyui';
+
+/* You can generate a theme via: https://daisyui.com/theme-generator */
+@plugin 'daisyui/theme' {
+	name: 'personal';
+	default: true;
+	prefersdark: true;
+	color-scheme: 'dark';
+	--color-base-100: oklch(14% 0.005 285.823);
+	--color-base-200: oklch(21% 0.006 285.885);
+	--color-base-300: oklch(27% 0.006 286.033);
+	--color-base-content: oklch(96% 0.001 286.375);
+	--color-primary: oklch(54% 0.245 262.881);
+	--color-primary-content: oklch(97% 0.014 254.604);
+	--color-secondary: oklch(60% 0.118 184.704);
+	--color-secondary-content: oklch(98% 0.014 180.72);
+	--color-accent: oklch(55% 0.288 302.321);
+	--color-accent-content: oklch(97% 0.014 308.299);
+	--color-neutral: oklch(21% 0.006 285.885);
+	--color-neutral-content: oklch(98% 0 0);
+	--color-info: oklch(60% 0.126 221.723);
+	--color-info-content: oklch(98% 0.019 200.873);
+	--color-success: oklch(59% 0.145 163.225);
+	--color-success-content: oklch(97% 0.021 166.113);
+	--color-warning: oklch(68% 0.162 75.834);
+	--color-warning-content: oklch(98% 0.026 102.212);
+	--color-error: oklch(57% 0.245 27.325);
+	--color-error-content: oklch(97% 0.013 17.38);
+	--radius-selector: 0.5rem;
+	--radius-field: 0.5rem;
+	--radius-box: 0.5rem;
+	--size-selector: 0.21875rem;
+	--size-field: 0.28125rem;
+	--border: 1.5px;
+	--depth: 0;
+	--noise: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.checkbox {
+	@apply bg-transparent;
+}
+
+.toggle[type='checkbox']:checked {
+	background-image: none;
+}
